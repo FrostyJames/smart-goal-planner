@@ -1,16 +1,67 @@
-<<<<<<< HEAD
-# smart-goal-planner
-=======
-# React + Vite
+# 💰 Smart Goal Planner
+Smart Goal Planner is a simple and intuitive React + Vite application that helps users track their financial savings goals. It features a clean UI, live progress visualization, and full CRUD functionality powered by a local API (json-server).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ # Features
+- ✅ Add new financial goals
+- ✅ View progress with dynamic progress bars
+- ✅ Deposit savings toward goals
+- ✅ Delete completed or irrelevant goals
+- 🔔 Deadline reminders and alerts
+- 🧮 Dashboard totals for saved funds and completed goals
 
-Currently, two official plugins are available:
+# ⚙️ Tech Stack
+- React
+- Vite
+- Axios
+- json-server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📦 Installation & Local Setup
+- Clone the repository:
+git clone https://github.com/FrostyJames/smart-goal-planner.git
+cd smart-goal-planner
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 279d0b7 (initial commit)
+- Install dependencies:
+npm install
+
+
+- Start the local backend (mock API):
+json-server --watch db.json --port 3000
+
+
+- Run the React app:
+npm run dev
+
+
+Open http://localhost:5173 
+
+# 🌐 Deployment Notes
+This frontend app is ready for deployment via Netlify or Vercel. However, json-server runs locally and cannot be accessed from a public domain. To make your app work online:
+- ✅ Switch to a cloud-based backend (e.g. Supabase, Firebase, Render)
+- 🔄 Or modify the app to store data using localStorage or a hosted REST API
+
+
+
+
+# 📁 Folder Structure
+smart-goal-planner/
+├── db.json
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── styles.css
+│   └── components/
+│       ├── DepositForm.jsx
+│       ├── GoalCard.jsx
+│       ├── GoalDashboard.jsx
+│       ├── GoalForm.jsx
+│       ├── GoalList.jsx
+│       └── NotificationBanner.jsx
+
+
+
+# 🧠 Author
+Developed by James Ivan
+Built with purpose, progress, and pixel perfection 🔥
+
+
