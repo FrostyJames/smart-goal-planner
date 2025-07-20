@@ -10,13 +10,13 @@
       "createdAt": "2024-01-15"
     },
     {
-      "id": "0e4f809a-d221-4dde-aad0-371587ba0110",
+      "id": "35e7d05c-e71c-4182-ad87-3dfc1d71d61d",
       "name": "exercise",
-      "targetAmount": "200000",
+      "targetAmount": "20000",
       "category": "workout",
       "deadline": "2025-07-26",
-      "savedAmount": 100000,
-      "createdAt": "2025-07-20T19:45:26.498Z"
+      "savedAmount": 10000,
+      "createdAt": "2025-07-20T20:31:16.900Z"
     }
   ]
 }
