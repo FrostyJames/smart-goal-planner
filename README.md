@@ -65,3 +65,4 @@ Developed by James Ivan
 Built with purpose, progress, and pixel perfection 🔥
 
 
+# smart-goal-planner
